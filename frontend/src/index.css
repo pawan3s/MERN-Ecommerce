@@ -1,0 +1,95 @@
+main {
+  min-height: 80vh;
+}
+body {
+  font-family: Cerebri Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h3 {
+  padding: 1rem 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h3 {
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.carousel img {
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+.signin-btn {
+  background-color: rgb(65, 143, 231);
+  border-radius: 12px;
+}
+.signin-btn:hover {
+  background-color: rgb(218, 123, 107);
+}
+.newsletter__inputHolder {
+  display: flex;
+}
+.newsletter-btn {
+  margin-left: 12px;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+.add__to__cart {
+  width: 95%;
+  background-color: rgb(65, 143, 231);
+  border-radius: 12px;
+  color: white;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.add__to__cart:hover {
+  background-color: rgb(218, 123, 107);
+}
+.add__to__cart:disabled {
+  background-color: gray;
+  cursor: auto;
+}
+.add__to__cart:focus {
+  background-color: rgb(65, 143, 231);
+}
+.signin-btn:focus {
+  background-color: rgb(218, 123, 107);
+  border: none;
+}
